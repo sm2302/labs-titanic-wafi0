@@ -16,3 +16,4 @@ In this lab exercise I learned:
 - that R saves workspace data in an RData file
 - the importance of making frequent commits
 - to use a README file (and Markdown) to describe a repository
+- how to set-up a [*GitHub Pages* page for this repository](https://sm2302.github.io/labs-titanic-wafi0/)
