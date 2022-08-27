@@ -162,3 +162,5 @@ ggplot(titanic, aes(Age, Survived)) +
   geom_line(data = predict.df, aes(Age, fitted + 1, group = factor(Pclass):factor(Sex), col = Pclass, linetype = Sex)) +
   labs(title = "Predicted probability of survival of male passengers by passenger class and age",
        col = "Passenger class")
+
+ggsave("pred_prob_surv.png", width = 8, height = 4)
